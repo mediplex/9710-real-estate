@@ -21,7 +21,7 @@ const tabs = [
   { name: "Step 2", href: "#", current: false },
 ];
 
-function classNames(...classes) {
+function classNames(...classes:any) {
   return classes.filter(Boolean).join(" ");
 }
 
